@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(
+        0deg,
+        rgba(247, 247, 247, 1) 24%,
+        rgba(252, 221, 221, 1) 92%
+      );
+      height: 100vh;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.quote-container {
+    width: auto;
+    max-width: 720px;
+    background-color: white;
+    box-shadow: 0 20px 20px 0 rgba(250, 170, 170, 0.3);
+    border-radius: 40px 0px 40px 0px;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+.quote {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+i {
+    font-size: 3rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border-style: none;
+    border-radius: 50%;
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn-twitter{
+    color: #1da1f2;
+}
+
+.author {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: rgb(95, 95, 95);
+}
